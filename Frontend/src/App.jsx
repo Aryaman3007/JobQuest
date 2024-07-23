@@ -24,7 +24,7 @@ const App = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
-        const response = axios.get("http://localhost:4000/api/v1/user/getuser", { withCredentials: true });
+        const response = axios.get("https://jobquest-o7s1.onrender.com/api/v1/user/getuser", { withCredentials: true });
         setUser((await response).data.user);
         setIsAuthorized(true)
       } catch (error) {
