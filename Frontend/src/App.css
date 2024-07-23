@@ -791,6 +791,8 @@ p {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  white-space: pre-wrap; 
+  overflow-wrap: break-word;
 }
 .job_seeker_card .detail {
   flex: 2;
@@ -812,7 +814,7 @@ p {
   height: 100%;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
 }
 .job_seeker_card .btn_area {
   flex: 1;
