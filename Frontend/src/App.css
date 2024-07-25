@@ -149,6 +149,7 @@ p {
   background: #2d5649;
   font-size: 1.2rem;
   border-radius: 7px;
+  cursor: pointer;
 }
 .authPage .container form a {
   padding: 12px;
